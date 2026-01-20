@@ -8,7 +8,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 /* ____ Components and validations  ... */
-import { OrganizationFormSchema } from "@/validations";
+import { OrganizationFormSchema } from "./_validations";
 import { PasswordInput } from "@/components/common";
 import ShowClientError from "@/utils/Error";
 import Notify from "@/utils/Notifications";

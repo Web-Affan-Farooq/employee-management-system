@@ -1,7 +1,7 @@
 "use server"
 import bcrypt from "bcrypt";
 import * as z from "zod";
-import { OrganizationFormSchema } from "@/validations";
+import { OrganizationFormSchema } from "./_validations";
 import GetTokenPayload from "@/utils/GetTokenPayload";
 import db from "@/db";
 import { organization } from "@/db/schemas";

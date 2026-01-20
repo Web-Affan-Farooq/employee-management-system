@@ -1,5 +1,5 @@
-export {default as CreateAccountAction} from "./CreateAccount"
-export {default as LoginAction} from "./Login"
+export {default as CreateAccountAction} from "../../app/(AUTH)/signup/_actions"
+export {default as LoginAction} from "../../app/(AUTH)/login/Login"
 export {default as DeleteAccountAction} from "./DeleteAccount"
 export {default as UpdateAccountAction} from "./UpdateProfileAction"
 export {default as ChangePasswordAction} from "./ChangePasswordAction"

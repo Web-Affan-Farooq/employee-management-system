@@ -1,6 +1,6 @@
 import * as z from "zod";
 
-const AccountLoginSchema = z.object(
+export const AccountLoginSchema = z.object(
     {
         email: z.email(),
         password: z
@@ -29,4 +29,3 @@ const AccountLoginSchema = z.object(
             }),
     }
 ).strict();
-export default AccountLoginSchema

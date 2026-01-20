@@ -87,7 +87,7 @@ Before taking a look at schema , remember the following points.
 | Analytics dashboard                     | ⬜     | ⬜    |
 | Notifications system                    | ✅     | ⬜    |
 | Saas management dashboard               | ⬜     | ⬜    |
-| guest mode in  dashboard                | ⬜     | ⬜    |
+| guest mode in dashboard                 | ⬜     | ⬜    |
 | Comments / collaboration                | ⬜     | ⬜    |
 | Task relation like a related to b       | ⬜     | ⬜    |
 | Manager creation feature                | ⬜     | ⬜    |

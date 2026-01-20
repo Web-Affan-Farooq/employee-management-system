@@ -1,6 +1,6 @@
 import * as z from "zod";
 
-const OrganizationFormSchema = z.object(
+export const OrganizationFormSchema = z.object(
     {
         organizationName: z.string("Invalid name").min(7, "Minimum 7 characters required").max(20, "Maximum 16 characters required"),
         organizationEmail: z.email("Invalid email"),
@@ -30,5 +30,3 @@ const OrganizationFormSchema = z.object(
             }),
     }
 ).strict();
-
-export default OrganizationFormSchema;

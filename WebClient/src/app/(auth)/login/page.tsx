@@ -13,8 +13,8 @@ import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 // ___ Types and schemas...
-import { AccountLoginSchema } from "@/validations";
-import LoginAction from "@/actions/accounts/Login";
+import { AccountLoginSchema } from "./_validations";
+import { LoginAction } from "./_actions";
 
 // ___ Utils...
 import ShowClientError from "@/utils/Error";

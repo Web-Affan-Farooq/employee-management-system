@@ -12,7 +12,7 @@ type LoginResponse = {
   redirect?: "/dashboard";
 };
 
-const LoginAction = async (email:string, password:string):Promise<LoginResponse> => {
+export const LoginAction = async (email:string, password:string):Promise<LoginResponse> => {
   // Get body and initialize cookies ...
   const clientCookies = await cookies();
 
@@ -57,4 +57,3 @@ const LoginAction = async (email:string, password:string):Promise<LoginResponse>
     redirect: "/dashboard",
   }
 };
-export default LoginAction;
